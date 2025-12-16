@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfólio de Wyctor Gladstone — Desenvolvedor Front-end e Designer Gráfico.">
+    <meta name="author" content="Wyctor Gladstone">
+    <meta name="keywords" content="programador, front-end, designer gráfico, desenvolvedor web, portfolio">
+ 
+    <meta property="og:title" content="Wyctor Gladstone — Front-end & Designer Gráfico">
+    <meta property="og:description" content="Portfólio pessoal de Wyctor Gladstone, desenvolvedor Front-end e designer gráfico. Explore meus projetos e habilidades em web design e desenvolvimento.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wxctor.github.io/wyctor-gladstone/">
+    <meta property="og:image" content="https://wxctor.github.io/wyctor-gladstone/src/img/preview.png">
+    <meta property="og:locale" content="pt_BR">
+
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/var.css">
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/responsive.css" />
+    <link rel="shortcut icon" href="src/img/icons/logo site.png" type="image/x-icon"/>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-chubby/css/uicons-solid-chubby.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <title>Wyctor Gladstone</title>
+  </head>
+  <body>
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <div class="light-spot spot1"></div>
+    <div class="light-spot spot2"></div>
+    <div class="light-spot spot3"></div>
+
+    <main class="page-1">
+      <nav class="menu" id="home">
+        <a href="https://www.linkedin.com/in/wyctorgladstone/" target="_blank">
+          <h1 class="logo">W</h1>
+        </a>
+
+        <div class="ham-lines">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+
+        <ul class="menu-ul">
+          <li><a href="#home" title="Voltar ao home">Home</a></li>
+          <li><a href="#sobre" title="Aba de Sobre mim">Sobre</a></li>
+          <li><a href="#como-trabalho" title="Aba de Como Trabalho">Trabalho</a></li>
+          <li><a href="#projetos" title="Aba de Meus Projetos">Projetos</a></li>
+          <li><a href="#cursos-competencias" title="Aba de Cursos e Habilidades">Cursos</a></li>
+          <li><a href="#contato" title="Entre em Contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <button id="theme-toggle" class="theme-btn">
+        <i class="fi fi-sc-moon"></i> 
+      </button>
+
+      <section class="home">
+        <img class="bg-leaf" src="src/img/icons/leaf.svg" alt="">
+        <img class="photo" src="src/img/foto.jpg" alt="Foto principal" />
+        <h1>Wyctor<br />Gladstone</h1>
+        <p>Desenvolvedor Front-end & Designer Gráfico</p>
+      </section>
+    </main>
+
+    <section class="sobre-mim" id="sobre">
+      <img class="bg-leaf" src="src/img/icons/leaf.svg" alt="">
+      <h1>Sobre mim</h1>
+
+      <p id="sobre-texto">
+        Sou <b>Wyctor Gladstone</b>, <b>desenvolvedor Front-end</b> e <b>designer gráfico</b>. Uno estética e funcionalidade para criar interfaces modernas, fluidas e centradas no usuário. Atualmente curso <b>ADS (UNINTER)</b> e desenvolvo projetos que unem <b>criatividade</b>, <b>performance</b> e <b>experiência digital</b>. Busco sempre evoluir minhas habilidades através de estudos contínuos e projetos práticos.
+      </p>
+    </section>
+
+    <section class="como-trabalho" id="como-trabalho">
+      <img class="bg-leaf" src="src/img/icons/leaf.svg" alt="">
+      <h1>Como eu trabalho</h1>
+
+      <div class="como-trabalho-lista">
+        <div class="item">
+          <h3>Planejamento e entendimento</h3>
+          <p>Alinho objetivos, público e expectativas antes de iniciar qualquer projeto.</p>
+        </div>
+
+        <div class="item">
+          <h3>Design focado na experiência</h3>
+          <p>Crio interfaces modernas, acessíveis e visualmente harmônicas.</p>
+        </div>
+
+        <div class="item">
+          <h3>Desenvolvimento limpo e escalável</h3>
+          <p>Código organizado, performático e estruturado para crescer.</p>
+        </div>
+
+        <div class="item">
+          <h3>Testes, refinamento e entrega</h3>
+          <p>Revisões, otimizações e entrega final perfeitamente funcional.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="meus-projetos" id="projetos">
+      <img class="bg-leaf" src="src/img/icons/leaf.svg" alt="">
+      <div class="site-carousel">
+        <h1>Projetos</h1>
+        <h3>Websites</h3>
+        <div class="carousel-track">
+          <div class="projeto-wrapper">
+            <div class="projeto">
+            <img data-src="src/img/projects/sites/adivinhe-o-evento.png"
+              alt="Projeto 1 - Adivinhe o evento"
+              class="abrir-modal-projeto-site lazy-img"
+              data-titulo="Adivinhe o evento"
+              data-img="src/img/projects/sites/adivinhe-o-evento.png"
+              data-video="src/video/adivinhe-o-evento.mp4"
+              data-descricao="Jogo web onde o usuário deve adivinhar eventos históricos a partir de dicas, com o total de 5 dicas e o valor de pontos obtidos da resposta diminui a cada dica usada. Projeto criado para auxiliar um amigo em um trabalho de faculdade."
+              data-extra="<b>Tecnologias:</b> HTML, CSS, JavaScript, Firebase API<br><b>Link:</b> <a href='https://wxctor.github.io/adivinhe-o-evento/index.html' class='projeto-link' target='_blank'>Acessar</a>"/>
+            <span>Saiba mais</span>
+          </div>
+        </div>
+
+        <div class="projeto-wrapper">
+          <div class="projeto">
+            <img data-src="src/img/projects/sites/prompts.png"
+              alt="Projeto 2 - Prompts Manager"
+              class="abrir-modal-projeto-site lazy-img"
+              data-titulo="Prompts Manager"
+              data-img="src/img/projects/sites/prompts.png"
+              data-video="src/video/prompts.mp4"
+              data-descricao="Aplicação web onde o usuário pode escrever, salvar, pesquisar e excluir prompts personalizados. Funciona como um espaço organizado para armazenar ideias e comandos reutilizáveis. Projeto criado para praticar armazenamento local, por meio do curso NLW Pocket da Rocketseat."
+              data-extra="<b>Tecnologias:</b> HTML, CSS, JavaScript"/>
+            <span>Saiba mais</span>
+          </div>
+        </div>
+
+        <div class="projeto-wrapper">
+          <div class="projeto">
+            <img data-src="src/img/projects/sites/terror-movies.png"
+              alt="Projeto 3 - Cinema - Terror"
+              class="abrir-modal-projeto-site lazy-img"
+              data-titulo="Cinema - Terror"
+              data-img="src/img/projects/sites/terror-movies.png"
+              data-video="src/video/terror-movies.mp4"
+              data-descricao="Site onde o usuário pode pesquisar por filmes de terror, visualizar sinopses, assistir trailers e descobrir em quais plataformas o filme está disponível. Projeto criado para praticar métodos de pesquisa e manipulação de DOM, por meio da Imersão Dev com Gemini da Alura."
+              data-extra="<b>Tecnologias:</b> HTML, CSS, JavaScript<br><b>Link:</b> <a href='https://wxctor.github.io/terror-movies/' class='projeto-link' target='_blank'>Acessar</a>"/>
+            <span>Saiba mais</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="meus-projetos2" id="projetos2">
+      <img class="bg-leaf" src="src/img/icons/leaf.svg" alt="">
+      <h3>Designs</h3>
+      <div class="design-carousel">
+        <div class="container-design-projetos">
+
+        <div class="projeto2-wrapper">
+          <div class="projeto2">
+            <img src="src/img/projects/design/nutrição.png" alt="Projeto 1" class="abrir-modal-projeto"
+              data-titulo="Design Nutrição"
+              data-img="src/img/projects/design/nutrição.png"
+              data-descricao="Post para redes sociais com foco em saúde e bem-estar, utilizando paleta em tons de verde, tipografia moderna e composição limpa. O design destaca a profissional e os alimentos naturais, transmitindo profissionalismo e credibilidade."
+              data-extra="<b>Ferramentas:</b> Adobe Photoshop"
+              decoding="async"
+              fetchpriority="high"/>
+            <span>Saiba mais</span>
+          </div>
+        </div>
+
+        <div class="projeto2-wrapper">
+          <div class="projeto2">
+            <img src="src/img/projects/design/natureza.png" alt="Projeto 2" class="abrir-modal-projeto"
+              data-titulo="Design Natureza"
+              data-img="src/img/projects/design/natureza.png"
+              data-descricao="Post que integra fotografia de paisagem com tipografia moderna e espaçada, criando um efeito visual dinâmico. O design explora contraste entre elementos naturais e letras fragmentadas para transmitir leveza e conexão com o ambiente."
+              data-extra="<b>Ferramentas:</b> Adobe Photoshop"
+              decoding="async"
+              fetchpriority="high"/>
+            <span>Saiba mais</span>
+          </div>
+        </div>
+
+        <div class="projeto2-wrapper">
+          <div class="projeto2">
+            <img
+              src="src/img/projects/design/sorveteria-fictícia.png"
+              alt="Projeto 3"
+              class="abrir-modal-projeto"
+              data-titulo="Sorveteria Fictícia"
+              data-img="src/img/projects/design/sorveteria-fictícia.png"
+              data-descricao="Design fictício criado para divulgar uma oferta de sorvetes utilizando cores vibrantes, tipografia chamativa e composição focada no produto. A arte destaca o preço promocional e reforça o apelo visual com imagens de sorvetes, criando um layout atrativo para campanhas em redes sociais."
+              data-extra="<b>Ferramentas:</b> Adobe Photoshop, Adobe Illustrator"
+              decoding="async"
+              fetchpriority="high"/>
+            <span>Saiba mais</span>
+          </div>
+        </div>
+
+        <div class="projeto2-wrapper">
+          <div class="projeto2">
+            <img src="src/img/projects/design/post-aksai.png" alt="Projeto 4" class="abrir-modal-projeto"
+              data-titulo="Carrossel Aksai - 1"
+              data-img="src/img/projects/design/post-aksai.png"
+              data-descricao="Design criado para destacar sneakers e streetwear, usando cores de alto contraste, tipografia moderna e composição diagonal. A arte valoriza os produtos em um fundo vibrante, reforçando o estilo e a identidade da marca."
+              data-extra="<b>Ferramentas:</b> Adobe Photoshop"
+              decoding="async"
+              fetchpriority="high"/>
+            <span>Saiba mais</span>
+          </div>
+        </div>
+
+        <div class="projeto2-wrapper">
+          <div class="projeto2">
+            <img src="src/img/projects/design/post-aksai1.png" alt="Projeto 5" class="abrir-modal-projeto"
+              data-titulo="Carrossel Aksai - 2"
+              data-img="src/img/projects/design/post-aksai1.png"
+              data-descricao="Design focado em crescimento e engajamento, utilizando mockup de celular para destacar o perfil da marca no Instagram. A paleta em roxo, preto e branco e a composição moderna reforçam credibilidade e convidam o público a seguir a loja."
+              data-extra="<b>Ferramentas:</b> Adobe Photoshop"
+              decoding="async"
+              fetchpriority="high"/>
+            <span>Saiba mais</span>
+          </div>
+        </div>
+
+        <div class="projeto2-wrapper">
+          <div class="projeto2">
+            <img src="src/img/projects/design/post-aksai2.png" alt="Projeto 6" class="abrir-modal-projeto"
+              data-titulo="Carrossel Aksai - 3"
+              data-img="src/img/projects/design/post-aksai2.png"
+              data-descricao="Design informativo sobre logística e entregas, mantendo a paleta roxa e branca da marca. A composição diagonal e a tipografia moderna destacam o alcance nacional e a agilidade nas entregas, transmitindo confiança ao cliente."
+              data-extra="<b>Ferramentas:</b> Adobe Photoshop"
+              decoding="async"
+              fetchpriority="high"/>
+            <span>Saiba mais</span>
+          </div>
+        </div>
+
+        <div class="projeto2-wrapper">
+          <div class="projeto2">
+            <img
+              src="src/img/projects/design/dia-do-programador.png"
+              alt="Projeto 7"
+              class="abrir-modal-projeto"
+              data-titulo="Dia do Programador"
+              data-img="src/img/projects/design/dia-do-programador.png"
+              data-descricao="Design desenvolvido em comemoração ao Dia do Programador, combinando fotografia temática com elementos tipográficos modernos. A arte utiliza contraste de cores e efeito glitch, criando um visual tecnológico e envolvente para redes sociais."
+              data-extra="<b>Ferramentas:</b> Adobe Photoshop, Adobe Illustrator"
+              decoding="async"
+              fetchpriority="high"/>
+            <span>Saiba mais</span>
+          </div>
+        </div>
+
+        <div class="projeto2-wrapper">
+          <div class="projeto2">
+            <img src="src/img/projects/design/dia-das-mães.png" alt="Projeto 8" class="abrir-modal-projeto"
+              data-titulo="Dia das Mães"
+              data-img="src/img/projects/design/dia-das-mães.png"
+              data-descricao="Post desenvolvido em comemoração ao Dia das Mães, com foco em transmitir carinho e afeto. O design usa tons suaves de roxo, elementos florais e tipografia delicada, complementando a fotografia principal e criando uma composição acolhedora para redes sociais."
+              data-extra="<b>Ferramentas:</b> Adobe Photoshop"
+              decoding="async"
+              fetchpriority="high"/>
+            <span>Saiba mais</span>
+          </div>
+        </div>
+
+        <div class="projeto2-wrapper">
+          <div class="projeto2">
+            <img
+              src="src/img/projects/design/dia-das-mulheres.png"
+              alt="Projeto 9"
+              class="abrir-modal-projeto"
+              data-titulo="Dia das Mulheres"
+              data-img="src/img/projects/design/dia-das-mulheres.png"
+              data-descricao="Arte desenvolvida em comemoração ao Dia Internacional da Mulher, trazendo uma composição delicada com fotografia de uma mulher segurando uma flor branca. A paleta em tons de rosa e branco, combinada a elementos florais no fundo, reforça leveza e respeito"
+              data-extra="<b>Ferramentas:</b> Adobe Photoshop"
+              decoding="async"
+              fetchpriority="high"/>
+            <span>Saiba mais</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section class="cursos-competencias" id="cursos-competencias">
+      <img class="bg-leaf" src="src/img/icons/leaf.svg" alt="">
+      <h1>Cursos & Habilidades</h1>
+      <h3 class="subtitulo-cards">Cursos Finalizados</h3>
+      <section class="cursos">
+        <div class="cursos-grid">
+          <div class="card-wrapper">
+            <div class="curso-card">
+              <img src="src/img/icons/cursoemvideo.png" alt="Curso em Vídeo" />
+              <div>
+                <strong>HTML, CSS e JS</strong>
+                <p>Curso em Vídeo</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-wrapper">
+            <div class="curso-card">
+              <img src="src/img/icons/fluencypass.png" alt="Alura" />
+              <div>
+                <strong>English Beginner</strong>
+                <p>Fluencypass</p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="card-wrapper">
+            <div class="curso-card">
+              <img src="src/img/icons/rocketseat.jpg" alt="Rocketseat" />
+              <div>
+                <strong>NLW Pocket</strong>
+                <p>Rocketseat</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-wrapper">
+            <div class="curso-card">
+              <img src="src/img/icons/escolaelevar.png" alt="Escola Elevar" />
+              <div>
+                <strong>Photoshop CC</strong>
+                <p>Escola Elevar</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <h3 class="subtitulo-cards">Habilidades</h3>
+      <section class="skills">
+        <div class="card-wrapper">
+          <div class="skill-card">
+            <img src="src/img/icons/html-icon.svg" alt="HTML" />
+            <span>HTML5</span>
+          </div>
+        </div>
+
+        <div class="card-wrapper">
+          <div class="skill-card">
+            <img src="src/img/icons/css-icon.svg" alt="CSS" />
+            <span>CSS3</span>
+          </div>
+        </div>
+
+        <div class="card-wrapper">
+          <div class="skill-card">
+            <img src="src/img/icons/javascript-icon.svg" alt="JavaScript" />
+            <span>JavaScript</span>
+          </div>
+        </div>
+
+        <div class="card-wrapper">
+          <div class="skill-card">
+            <img src="src/img/icons/react-icon.svg" alt="React" />
+            <span>React</span>
+          </div>
+        </div>
+
+        <div class="card-wrapper">
+          <div class="skill-card">
+            <img src="src/img/icons/figma-icon.svg" alt="Figma" />
+            <span>Figma</span>
+          </div>
+        </div>
+        
+        <div class="card-wrapper">
+          <div class="skill-card">
+            <img src="src/img/icons/adobe-photoshop-icon.svg" alt="Photoshop" />
+            <span>Photoshop</span>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="contato" id="contato">
+      <img class="bg-leaf" src="src/img/icons/leaf.svg" alt="">
+      <div class="contact-text">
+        <h1>Contato</h1>
+        <h3>
+          Olá, se interessou pelos meus trabalhos e deseja que algo seja feito?
+          <b>Entre em contato comigo!</b>
+        </h3>
+      </div>
+
+      <section class="contact-cards">
+        <div class="card-wrapper">
+          <a
+            href="https://www.linkedin.com/in/wyctorgladstone/"
+            target="_blank"
+            class="contact"
+          >
+            <img src="src/img/icons/linkedin-icon.svg" alt="Linkedin Icon Image"/>
+            <span>Linkedin<i class="fi fi-br-arrow-right"></i></span>
+          </a>
+        </div>
+
+        <div class="card-wrapper">
+          <a
+            href="https://github.com/wxctor"
+            target="_blank"
+            class="contact"
+          >
+            <img src="src/img/icons/github-icon.svg" alt="GitHub Icon Image" />
+            <span>GitHub<i class="fi fi-br-arrow-right"></i></span>
+          </a>
+        </div>
+
+        <div class="card-wrapper">
+          <a
+            href="https://www.instagram.com/wyctorgladstone_"
+            target="_blank"
+            class="contact"
+          >
+            <img src="src/img/icons/instagram-icon.svg" alt="Instagram Icon Image" />
+            <span>Instagram<i class="fi fi-br-arrow-right"></i></span>
+          </a>
+        </div>
+      </section>
+    </section>
+
+  <!-- Modal de Projeto -->
+  <section id="modal-projeto" class="modal-projeto">
+    <div class="modal-projeto-content">
+      <span class="modal-projeto-close">&times;</span>
+      <h2 id="modal-projeto-titulo"></h2>
+      <div class="modal-projeto-grid">
+        <img id="modal-projeto-img" src="" alt="Imagem do Projeto"/>
+        <p id="modal-projeto-descricao"></p>
+      </div>
+      <div id="modal-projeto-extra"></div>
+    </div>
+  </section>
+
+    <!-- Modal de Projeto Site-->
+  <section id="modal-projeto-site" class="modal-projeto-site">
+    <div class="modal-projeto-content-site">
+      <span class="modal-projeto-close-site">&times;</span>
+      <h2 id="modal-projeto-titulo-site"></h2>
+      <img id="modal-projeto-img-site" alt="Preview do projeto">
+      <video id="modal-projeto-video-site" autoplay muted loop playsinline preload="auto"></video>
+      <p id="modal-projeto-descricao-site"></p>
+      <div id="modal-projeto-extra-site"></div>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@latest/bundled/lenis.min.js"></script>
+  <script src="src/js/script.js"></script>
+</body>
+</html>
+</html>

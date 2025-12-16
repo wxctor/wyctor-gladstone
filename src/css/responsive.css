@@ -1,0 +1,536 @@
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0 auto;
+  }
+  .page-1 {
+    width: 100%;
+    height: 100%;
+  }
+  /* ------------------ HOME ------------------ */
+  .home {
+    margin: 12em 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+  }
+  .home .photo {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 3em auto;
+    display: block;
+    position: relative;
+  }
+  .home h1 {
+    position: static !important;
+    width: 100%;
+    margin: 0 0 0.5em 0;
+    font-size: 50px;
+    text-align: center !important;
+    right: auto !important;
+    top: auto !important;
+  }
+  .home p {
+    position: static !important;
+    padding: 0;
+    margin: 0 0 1em 0;
+    width: 100%;
+    text-align: center !important;
+    right: auto !important;
+    top: auto !important;
+    justify-content: center;
+  }
+  .logo {
+    margin: -0.2em 0.2em 0 0;
+  }
+
+  /* ------------------ MENU FLUTUANTE HAMBURGUER ------------------ */
+  .ham-lines div {
+    height: 3px;
+    margin: 5px;
+    width: 26px !important;
+  }
+  .ham-lines.active .line1 {
+    transform: rotate(-45deg) translate(-6.2px, 5px);
+  }
+  .ham-lines.active .line3 {
+    transform: rotate(45deg) translate(-6.2px, -5px);
+  }
+
+  /* ------------------ MENU LATERAL ------------------ */
+  .menu-ul {
+    width: 23vw;
+    justify-content: space-around;
+    padding: 90px 0;
+  }
+  .menu-ul a {
+    font-size: 14px;
+  }
+  .ham-lines div {
+    width: 30px;
+  }
+  .ham-lines {
+    margin-left: 0.2em;
+  }
+
+  /* ------------------ SOBRE MIM ------------------ */
+  .sobre-mim {
+    width: 100%;
+    height: 100%;
+  }
+  .sobre-mim h1 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-bottom: 15px;
+  }
+  .sobre-mim p {
+    padding: 10px;
+    font-size: 19px;
+  }
+
+  /* ------------------ COMO TRABALHO ------------------ */
+  .como-trabalho h1 {
+    font-size: 45px;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* ------------------ PROJETOS SITE ------------------ */
+  .meus-projetos {
+    width: 100%;
+    height: 100%;
+  }
+  .meus-projetos h1 {
+    justify-content: center;
+    margin: 0;
+    font-size: 45px;
+  }
+  .meus-projetos h3 {
+    margin: 0 0 40px 0;
+    padding: 0;
+    position: static;
+    font-size: 20px;
+  }
+  .container-projetos {
+    margin: 0;
+    gap: 40px;
+    flex-direction: column;
+  }
+  .projeto {
+    flex: 0 0 calc(100vw - 50px); /* 100% responsivo real */
+    height: auto;
+    aspect-ratio: 1251 / 607;
+  }
+  .projeto img {
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    margin: 0;
+  }
+  .container-design-projetos {
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    gap: 16px;
+    overflow: visible !important;
+  }
+  .site-carousel {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+  .site-carousel .container-projetos {
+    overflow: auto;
+  }
+  .site-carousel .projeto {
+    flex: 0 0 100%;
+    max-width: 420px;
+    height: 180px;
+  }
+  .carousel-track .projeto,
+  .site-carousel .projeto {
+    min-height: 180px;
+  }
+
+  /* ------------------ PROJETOS DESIGN ------------------ */
+  .projetos2 {
+    width: 100%;
+    height: 100%;
+  }
+  .projetos2 h3 {
+    margin: 0 0 40px 0;
+    font-size: 20px;
+  }
+  .projeto2 img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  .design-carousel {
+    max-width: 400px;
+  }
+
+  /* ------------------ MODAL DOS PROJETOS - DESIGN ------------------ */
+  .modal-projeto-grid {
+    display: block;
+  }
+  .modal-projeto-content {
+    padding: 20px 25px;
+  }
+  #modal-projeto-img {
+    max-width: 90%;
+    border-radius: 8px;
+    padding-bottom: 10px;
+  }
+  #modal-projeto-titulo {
+    font-size: 22px;
+  }
+  #modal-projeto-descricao {
+    width: 100%;
+    text-align: flex-start;
+    font-size: 1.1em;
+    line-height: 1.2em;
+  }
+
+  /* ------------------ MODAL DOS PROJETOS - WEBSITE ------------------ */
+  .modal-projeto-content-site {
+    width: 95%;
+  }
+  #modal-projeto-titulo-site {
+    font-size: 22px;
+  }
+  #modal-projeto-descricao-site {
+    width: 100%;
+    text-align: flex-start;
+    font-size: 1.1em;
+    line-height: 1.2em;
+  }
+
+  /* ------------------ CURSOS & HABILIDADES ------------------ */
+  .cursos-competencias {
+    width: 100%;
+    height: 100%;
+  }
+  .cursos-competencias h1 {
+    font-size: 45px;
+    margin: 0 0 0 -3px;
+  }
+
+  /* ------------------ CONTATO ------------------ */
+  .contato {
+    width: 100%;
+    height: 100%;
+  }
+  .contato h1 {
+    font-size: 45px;
+  }
+  .contact-text {
+    align-items: center;
+    margin: auto;
+  }
+  .contato h3 {
+    font-size: 20px;
+    text-align: left;
+    width: 100%;
+    margin: 10px 0 0 0;
+  }
+  .contact {
+    width: 255px;
+  }
+
+  /* Folhas grandes no fundo */
+  .bg-leaf {
+    position: absolute;
+    width: 560px;
+    opacity: 0.08;
+    pointer-events: none;
+    user-select: none;
+    z-index: -1;
+    max-width: 65vw;
+    overflow-x: hidden;
+  }
+  section {
+    position: relative;
+    z-index: 1;
+  }
+  /* HOME */
+  .home .bg-leaf {
+    top: -50%;
+    left: 10%;
+    transform: rotate(20deg);
+  }
+
+  /* SOBRE MIM */
+  .sobre-mim .bg-leaf {
+    top: 40%;
+    right: 15%;
+    transform: rotate(-20deg);
+  }
+
+  /* COMO TRABALHO */
+  .como-trabalho .bg-leaf {
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-8deg);
+  }
+
+  /* PROJETOS */
+  .meus-projetos .bg-leaf {
+    bottom: 15%;
+    left: 15%;
+    transform: rotate(35deg);
+  }
+
+  /* PROJETOS 2 */
+  .projetos2 .bg-leaf {
+    top: 30%;
+    left: 70%;
+    transform: rotate(-35deg);
+  }
+
+  /* CURSOS & HABILIDADES */
+  .cursos-competencias .bg-leaf {
+    top: 20%;
+    left: 15%;
+    transform: rotate(10deg);
+  }
+
+  /* CONTATO */
+  .contato .bg-leaf {
+    top: 9%;
+    right: 1%;
+    transform: rotate(190deg);
+  }
+
+  .theme-btn {
+    position: fixed;
+    top: 70px;
+    right: 2em;
+    background: transparent;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 50;
+    transition: background 0.3s;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1032px) {
+  body {
+    margin: 0 auto;
+  }
+  .page-1 {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* ------------------ HOME ------------------ */
+  .home {
+    margin: 15em 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+  }
+  .home .photo {
+    width: 200px;
+    height: 200px;
+    margin: 0 25em 3em auto;
+    display: block;
+    position: absolute;
+  }
+  .home h1 {
+    position: static;
+    width: 100%;
+    margin: 0 0 0.1em -2em;
+    font-size: 50px;
+    text-align: flex-end;
+  }
+  .home p {
+    position: static;
+    padding: 0;
+    margin: 0 5em 1em 0;
+    width: 100%;
+    text-align: flex-end;
+    justify-content: flex-end;
+  }
+  .logo {
+    margin: -0.2em 0.2em 0 0;
+  }
+
+  /* ------------------ MENU LATERAL ------------------ */
+  .ham-lines div {
+    width: 30px;
+  }
+  .ham-lines {
+    margin-left: 0.2em;
+  }
+  .menu-ul {
+    width: 30vw;
+  }
+  .menu-ul a {
+    font-size: 18px;
+  }
+  .menu-ul {
+    width: 21vw;
+    height: 100vh;
+    justify-content: space-around;
+    padding-top: 40px;
+  }
+
+  /* ------------------ SOBRE MIM ------------------ */
+  .sobre-mim {
+    width: 100%;
+    height: 100%;
+  }
+  .sobre-mim h1 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-bottom: 15px;
+  }
+  .sobre-mim p {
+    padding: 10px;
+    width: 700px;
+    font-size: 19px;
+    margin: 0 auto;
+  }
+
+  /* ------------------ PROJETOS SITES ------------------ */
+  .meus-projetos {
+    width: 100%;
+    height: 100%;
+    overflow: clip;
+  }
+  .meus-projetos h1 {
+    justify-content: center;
+    margin: 0;
+    font-size: 45px;
+  }
+  .meus-projetos h3 {
+    margin: 0 0 40px 0;
+    padding: 0;
+    position: static;
+    font-size: 20px;
+  }
+  .container-projetos {
+    margin: 0;
+    gap: 40px;
+    flex-direction: column;
+  }
+  .projeto {
+    flex: 0 0 calc(100vw - 50px);
+    height: auto;
+    aspect-ratio: 1251 / 607;
+  }
+  .projeto img {
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    margin: 0;
+  }
+  .container-design-projetos {
+    gap: 16px;
+    overflow: auto;
+  }
+  .site-carousel {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+  .site-carousel .container-projetos {
+    overflow: visible !important;
+  }
+  .site-carousel .projeto {
+    flex: 0 0 80%;
+    max-width: 720px;
+    height: auto;
+    aspect-ratio: 1251 / 607;
+    margin: 0 auto;
+  }
+  .carousel-track .projeto,
+  .site-carousel .projeto {
+    min-height: 280px;
+  }
+  /* ------------------ PROJETOS DESIGN ------------------ */
+  .projetos2 {
+    width: 100%;
+    height: 100%;
+  }
+  .projetos2 h3 {
+    margin: 0 0 40px 0;
+    font-size: 20px;
+  }
+  .projeto2 img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  .design-carousel {
+    max-width: 1100px;
+  }
+
+  /* ------------------ MODAL DE PROJETO ------------------ */
+  .modal-projeto-grid {
+    display: block;
+  }
+  #modal-projeto-img {
+    max-width: 90%;
+    border-radius: 8px;
+  }
+  #modal-projeto-descricao {
+    width: 100%;
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.2em;
+  }
+
+  /* ------------------ CURSOS & HABILIDADES ------------------ */
+  .cursos-competencias {
+    width: 100%;
+    height: 100%;
+  }
+  .cursos-competencias h1 {
+    font-size: 45px;
+    margin: 0 0 0 -3px;
+  }
+
+  /* ------------------ CONTATO ------------------ */
+  .contato {
+    width: 100%;
+    height: 100%;
+  }
+  .contato h1 {
+    font-size: 45px;
+  }
+  .contact-text {
+    align-items: center;
+    margin: auto;
+  }
+  .contato h3 {
+    font-size: 20px;
+    text-align: left;
+    width: 100%;
+    margin: 10px 0 0 0;
+  }
+  .contact {
+    width: 255px;
+  }
+
+  .theme-btn {
+    position: fixed;
+    top: 70px;
+    right: 3.3em;
+    background: transparent;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 50;
+    transition: background 0.3s;
+  }
+}

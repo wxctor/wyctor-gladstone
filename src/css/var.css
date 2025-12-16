@@ -1,0 +1,50 @@
+/* ------------------ VAR COLORS ------------------ */
+:root {
+  --color-primary: #196462;
+  /* --tom-secundario: #218483;
+    --tom-terciario: #0f3e3c; */
+  --bg-color: #f1f4f4;
+  --white: #fdfdfd;
+  --black: #0c0c0c;
+  --color-shadow: #19646222;
+
+  --color-selection: #196462;
+
+  --color-menu: #196462;
+
+  --color-title: #111111;
+  --color-p: #191919;
+  --color-h2: #131313;
+  --color-subtitle: #0f3e3c;
+
+  --color-spot: #21848242;
+  --color-spot2: #19646139;
+  --color-spot3: #0f3e3c39;
+
+  --cursor-glow: #1f63623a;
+}
+
+/* ------------------ VAR COLORS - DARK MODE ------------------ */
+body.dark-mode {
+  --color-primary: #218483;
+  --bg-color: #0f0f0f;
+  --white: #fdfdfd;
+  --black: #e6e6e6;
+  --card-bg: #1b1b1b;
+  --color-shadow: rgba(255, 255, 255, 0.237);
+
+  --color-selection: #218483;
+
+  --color-menu: #218483;
+
+  --color-title: #f1f4f4;
+  --color-p: #dbdbdb;
+  --color-h2: #131313;
+  --color-subtitle: #218483;
+
+  --color-spot: rgb(255, 255, 255);
+  --color-spot2: rgb(255, 255, 255);
+  --color-spot3: rgb(255, 255, 255);
+
+  --cursor-glow: #ffffff47;
+}
