@@ -495,7 +495,7 @@ section {
   display: none;
 }
 
-/* Efeito de brilho interno no "Saiba mais" */
+/* --- efeito de brilho no "Saiba mais" --- */
 .projeto span::before,
 .projeto2 span::before {
   content: "";
@@ -513,23 +513,7 @@ section {
   transform: skewX(-20deg);
   opacity: 0;
 }
-@keyframes shine {
-  0% {
-    left: -120%;
-    opacity: 0;
-  }
-  10% {
-    opacity: 1;
-  }
-  50% {
-    left: 120%;
-    opacity: 1;
-  }
-  100% {
-    left: 120%;
-    opacity: 0;
-  }
-}
+
 .projeto:hover span::before,
 .projeto2:hover span::before {
   animation: shine 1.4s ease-in-out infinite;
@@ -773,6 +757,23 @@ img.lazy-img.loaded {
     transform: translateY(0); /* volta */
   }
 }
+@keyframes shine {
+  0% {
+    left: -120%;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  50% {
+    left: 120%;
+    opacity: 1;
+  }
+  100% {
+    left: 120%;
+    opacity: 0;
+  }
+}
 
 /* ------------------ MODAL DE PROJETO ------------------ */
 .modal-projeto {
@@ -1008,4 +1009,5 @@ img.lazy-img.loaded {
   top: 50%;
   left: 40%;
 }
+
 
