@@ -390,6 +390,8 @@ section {
   border-radius: 5px;
   border: 10px solid var(--white);
   box-shadow: 0 3px 15px var(--color-shadow);
+  content-visibility: auto;
+  contain-intrinsic-size: 480px;
 }
 .site-carousel {
   width: 100%;
@@ -1006,3 +1008,4 @@ img.lazy-img.loaded {
   top: 50%;
   left: 40%;
 }
+
