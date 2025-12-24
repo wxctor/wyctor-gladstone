@@ -1,4 +1,4 @@
-# 🌿 Wyctor Gladstone – Portfólio Profissional
+# 🌿 Wyctor Gladstone – Portfólio
 Meu espaço oficial para apresentar meus projetos, minhas habilidades e minha identidade como Designer Gráfico & Desenvolvedor Front-end.
 
 ## 📌 Sobre o projeto
